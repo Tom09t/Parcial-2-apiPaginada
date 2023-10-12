@@ -1,0 +1,76 @@
+{
+	"info": {
+		"_postman_id": "2396fa66-b9dc-40bc-8c59-023ad5509ffe",
+		"name": "Autores api rest",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30267359"
+	},
+	"item": [
+		{
+			"name": "Create Copy 2",
+			"request": {
+				"method": "POST",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "get ALL Copy 2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/personas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"personas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get One Copy 2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/personas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"personas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Copy 2",
+			"request": {
+				"method": "PUT",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Copy 2",
+			"request": {
+				"method": "DELETE",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
